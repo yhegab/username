@@ -1,5 +1,6 @@
 #! /bin/bash
 # zip.sh
+# author
 echo "Enter a five-digit ZIP code: "
 read ZIP
 while echo "$ZIP" | egrep -v "^[0-9]{5}$" > /dev/null 2>&1
